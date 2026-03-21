@@ -1,0 +1,161 @@
+/* home */
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+    
+    
+
+.navbar-1 {
+background-color: black;    
+}
+
+.navbar-ul{
+display:flex;   
+justify-content:center;
+align-items:center;
+height:10vh;
+}
+
+.navbar-li{
+list-style-type: none;
+padding:15px;
+margin:5px;
+color:white;
+font-size:12px;
+}
+
+.navbar-li:hover {
+    background-color:tomato;
+    transition: .5s ease-in-out;
+    transition-delay: .2s;
+    border-radius:8px;
+}
+
+.navbar-a{
+    color:white;
+    text-decoration:none;
+    font-weight:700;
+}
+
+.content-img{
+background-color:#f7f7f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+     height:85vh;
+}
+
+.img-1{
+width:40%;
+height:50%;
+}
+
+.a-img{
+    background-color:white;
+    width:350px;
+    height:200px;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    align-items:center;
+    text-decoration:none;
+    color:black;
+    font-size:24px;
+    border-radius:48px;
+    box-shadow: 10px 10px 5px rgba(0,0,0, 0.75);
+    -webkit-box-shadow:10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0, 0.75);
+
+}
+
+.foter{
+height:5vh;
+background-color:brown;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.foter-h1{
+font-size: 21px;
+color:white;
+}
+/* home end */
+
+/* about */
+.navbar-2 {
+    background-color: black;
+}
+
+.ul-navbar-2{
+width:100%;
+ height:10vh;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+}
+
+.li-navbar-2{
+    list-style-type:none;
+    padding:15px;
+    margin:5px;
+    font-size:12px;
+    font-weight:700;
+
+}
+
+.li-navbar-2:hover{
+    background-color:tomato;
+    transition: .5s ease-in-out;
+    transition-delay:.2s;
+    border-radius:8px;
+}
+
+.navbar-a-2{
+text-decoration:none;
+color:white;
+}
+
+.monyet-hitam-img{
+    height:100%;
+    width:100%;
+    border-radius:8px;
+}
+
+.a-monyet{
+    width:500px;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:8px;
+      box-shadow: 10px 10px 5px rgba(0,0,0, 0.75);
+    -webkit-box-shadow:10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0, 0.75);
+
+}
+
+.monyet-hitam{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:85vh;
+}
+
+.footer-2{
+background-color:black;
+height:5vh;
+width:100%;
+}
+
+.footer-h3-2{
+    color:white;
+    font-size:19px;
+}
+/* about end */
+
+/* contact */
+
+/* contact end */
