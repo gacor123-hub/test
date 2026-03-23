@@ -28,9 +28,9 @@ font-size:12px;
 
 .navbar-li:hover {
     background-color:tomato;
-    transition: .5s ease-in-out;
-    transition-delay: .2s;
-    border-radius:8px;
+    transition: .2s ease-in-out;
+    transition-delay: .1s;
+    border-radius:4px;
 }
 
 .navbar-a{
@@ -102,20 +102,19 @@ width:100%;
     padding:15px;
     margin:5px;
     font-size:12px;
-    font-weight:700;
-
 }
 
 .li-navbar-2:hover{
     background-color:tomato;
-    transition: .5s ease-in-out;
-    transition-delay:.2s;
-    border-radius:8px;
+    transition: .2s ease-in-out;
+    transition-delay:.1s;
+    border-radius:4px;
 }
 
 .navbar-a-2{
 text-decoration:none;
 color:white;
+font-weight:700;
 }
 
 .monyet-hitam-img{
@@ -160,11 +159,11 @@ width:100%;
 /* contact */
 .navbar-3{
 background-color:black;
-width:100%;
-height:10vh;
 }
 
 .ul-navbar-3{
+width:100%;
+height:10vh;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -174,19 +173,21 @@ align-items:center;
 list-style-type:none;
 padding:15px;
 margin:5px;
+font-size:12px;
 }
 
 .li-navbar-3:hover{
     background-color:tomato;
-    transition: .4s ease-in-out;
-    transition-delay:.3s;
-    border-radius:8px;
+    transition: .2s ease-in-out;
+    transition-delay:.1s;
+    border-radius:4px;
 }
 
 .a-navbar-contact{
     text-decoration:none;
     color:white;
-    font-weight:800;
+    font-weight:700;
+   
 }
 
 
@@ -198,6 +199,16 @@ display:flex;
 align-items:center;
 }
 
+.container-contact-1{
+    height:30%;
+    width:30%;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+}
+
+
 .a-contact{
 text-decoration:none;
 color:white;
@@ -207,7 +218,17 @@ font-weight:900;
 .button-contact{
     padding:5px;
     margin:4px;
-    border-radius:5px;
+    border-radius:10px;
+}
+
+.p-contact-1{
+    font-size:15px;
+    color:white;
+    font-weight:900;
+}
+
+.div-button{
+    display:flex;
 }
 
 .footer-3{
