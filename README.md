@@ -1,1 +1,1 @@
-ini adalah sebuah website asal-asalan
+ini adalah sebuah website 
