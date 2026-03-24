@@ -195,7 +195,7 @@ font-size:12px;
 
 
 .contact-content{
-background-color:#f7f7f7;
+ background-color:blueviolet;
 height:85vh;
 justify-content:center;
 display:flex;
@@ -203,7 +203,6 @@ align-items:center;
 }
 
 .container-contact-1{
-    background-color:blueviolet;
     border-radius:24px;
     height:30%;
     width:30%;
@@ -211,7 +210,6 @@ align-items:center;
     justify-content:center;
     flex-direction:column;
     align-items:center;
-    box-shadow:10px 13px 5px rgba(83, 8, 80, 0.75);
 }
 
 
