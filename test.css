@@ -119,25 +119,27 @@ font-weight:700;
 }
 
 .monyet-hitam-img{
-    height:100%;
-    width:100%;
-    border-radius:8px;
+    height:50%;
+    width:50%;
+    border-radius:12px;
 }
 
 .a-monyet{
+    background-color:white;
     width:500px;
     height:350px;
     display:flex;
     justify-content:center;
     align-items:center;
-    border-radius:8px;
-      box-shadow: 10px 10px 5px rgba(0,0,0, 0.75);
+    border-radius:24px;
+    box-shadow: 10px 10px 5px rgba(0,0,0, 0.75);
     -webkit-box-shadow:10px 10px 5px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow:10px 10px 5px 0px rgba(0,0,0, 0.75);
 
 }
 
 .monyet-hitam{
+    background-color:#f7f7f7;
     display:flex;
     justify-content:center;
     align-items:center;
@@ -193,20 +195,23 @@ font-size:12px;
 
 
 .contact-content{
+background-color:#f7f7f7;
 height:85vh;
-background-color:blueviolet;
 justify-content:center;
 display:flex;
 align-items:center;
 }
 
 .container-contact-1{
+    background-color:blueviolet;
+    border-radius:24px;
     height:30%;
     width:30%;
     display:flex;
     justify-content:center;
     flex-direction:column;
     align-items:center;
+    box-shadow:10px 13px 5px rgba(83, 8, 80, 0.75);
 }
 
 
